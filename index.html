@@ -1,0 +1,462 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+    <style>
+         *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      
+    }
+    .logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    }
+     
+
+ 
+.navbar1:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+         
+    #LP{
+            text-decoration: none;
+            color:red;
+    }
+    .LP {
+     object-fit: cover; 
+     height: 400px;
+      width: 100%;
+    }
+    .high{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    
+    }
+     .container ::after {
+            content: "";
+            display: table;
+            clear: both;
+     }
+     .left {
+      float: left;
+      margin-left: 75px;
+      background-color: rgb(15, 186, 186);;
+     }
+     .right {
+      float: right;
+      margin-right: 75px;
+      background-color: rgb(15, 186, 186);
+     }
+      
+    
+    
+    #row1,#row2{
+        display: flex;
+        column-gap: 10px;
+    }
+    .para1{
+            display: flex;
+            justify-content: space-between;
+        }
+        #row2,#row3,#row4{
+        display: flex;
+        column-gap: 10px;
+    }
+    .para2 {
+            display: flex;
+            justify-content: space-between;
+        }
+    #row1 {
+    row-gap: 10px;
+    margin-top: 40px;
+   }
+    
+
+      #footer{
+        display: flex;
+        flex-direction: row;
+        
+        background-color:  #d3d3d3;
+        
+        width:100%;
+        height:100%; 
+        border: 2px solid black;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+      }
+     
+  
+      
+    .footer1{
+      width: 100%;
+      height: 100%;
+      
+    }
+    .parent1{
+      display: flex;
+      flex-direction: row;
+    }
+    #space{
+      margin: 30px;
+      padding: 30px 30px;
+    }
+      .footer{
+          
+          display: flex;
+          margin-bottom: 30px;
+          justify-content: space-between;
+          gap: 10px;
+          
+           }
+           .Process{
+          background-color: rgb(15, 186, 186);;
+          width:30%;
+          height:25%;
+          text-align:center;
+          font-size:medium;
+          margin-left:60px;
+          
+          
+  
+      }
+      .nextpage{
+        background-color:rgb(15, 186, 186);
+          width:30%;
+          height:25%;
+          justify-content : flex-end;
+          font-size:medium;
+          align-items: center;
+          text-align: center;
+          margin-right: -50px;
+          
+            
+  
+      }
+      .numbers{
+         
+        display:flex;
+         
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        
+        
+      }
+      .numbers button:hover{
+        background-color:whitesmoke
+      }
+      #hh {
+        color:rgb(15, 186, 186); 
+      }
+      #hhh {
+        color: rgb(15, 186, 186);
+      }
+      
+ 
+
+
+.navbar img {
+  float: left;
+  padding: 0px;
+  height: 45px;
+}
+
+ 
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+#navbar {
+  background-color: white;
+  overflow: hidden;
+}
+
+ 
+#nav1 {
+  float: right;
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 14px 20px;
+  text-decoration: none;
+  justify-content: space-between;
+  
+}
+    
+    
+  
+        @media screen and  (min-width:100px) and (max-width:900px){
+          #navbar{
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+      }
+        #nav1 {
+         width: 100%;
+         text-decoration:none;
+    }
+      #img{
+       justify-content: center;
+       margin-left: 70px;
+      }  
+      .LP {
+        width: 100%;
+        
+      }
+      LP {
+        justify-content: center;
+       margin-left: 70px;
+
+      }
+      #row1{
+        display: flex;
+        flex-direction: column;
+      }
+      #pics{
+        width: 100%;
+      }
+      #footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 40px;
+        
+        
+      }
+      #search{
+        position: relative;
+        right: 450px;
+        bottom: 50px;
+       
+      }
+      #space{
+        display: flex;
+        flex-direction:column;
+        padding: 30px 30px;
+        
+      }
+      .parent1{
+        padding: 20px 20px;
+        margin-left: 20px;
+      
+      }
+    }
+  
+   
+</style>
+</head>
+  <body>
+  
+<div id="navbar">
+  
+  <img id="pic" src="./catalog pic.png" alt="Logo" >
+  <div id="nav1"> 
+  <a href="photos" style="text-decoration: underline; text-decoration-color: red; color: black;">PHOTOS</a>
+  <a href="videos" style="text-decoration: none; color: black;" >VIDEOS</a>
+  <a href="videos" style="text-decoration: none; color: black;" >ABOUT</a>
+  <a href="contacts"  style="text-decoration: none; color: black;">CONTACT</a>
+</div>
+</div>
+
+    </div>
+    <div class="LP">
+        <img id="LP" src="./pelican.jpg" alt="" height="400px" width="100%">
+        <div id="search">
+        <button style="position: relative; left:600px ; bottom:200px ; padding-right:80px">search</button>
+        <i class="fa-solid fa-magnifying-glass" style="position: relative; left:600px; bottom:200px;"></i>
+        </div>
+        
+            
+            
+     
+    
+    
+    <div class="container">
+     <div > <h3 class="left">Latest Videos</h3>
+      <h3 class="right">Page No</h3>
+     </div>
+     
+     <div id="space">
+     <div id="row1">
+        <div>
+        <img id="pics" src="./one-one.png" width="100%" height="100%">
+        <div class="para1">
+            <p>24 oct 2020
+         10,460 views</p>
+        </div>
+    </div>
+    <div>
+        <img id="pics" src="./one-two.png" width="100%" height="100%">
+        <div class="para1">
+            <p>22 oct 2020
+            14,502 views</p>
+            </div>
+    </div>
+    <div>
+        <img id="pics" src="./one-three.png" width="100%" height="100%">
+        <div class="para1">
+            <p>18 oct 2020
+            11,906 views</p>
+            </div>
+        </div>
+    <div>
+        <img id="pics" src="./one-four.png" width="100%" height="100%">
+        <div class="para1">
+            <p>12 oct 2020
+            16,100 views</p>
+            </div>
+    </div>
+  </div>
+    <div id="row1">
+        <div>
+        <img id="pics" src="./two-one.png" width="100%" height="100%">
+        <div class="para2">
+            <p>24 sep 2020
+           16,008 views</p>
+        </div>
+    </div>
+    <div>
+        <img id="pics" src="./two-two.png" width="100%" height="100%">
+        <div class="para2">
+            <p>21 sep 2020
+            12,860 views</p>
+            </div>
+    </div>
+    <div>
+        <img id="pics" src="./two-three.png" width="100%" height="100%">
+        <div class="para2">
+            <p>18 sep 2020
+            10,900 views</p>
+            </div>
+        </div>
+    <div>
+        <img id="pics" src="./two-four.png" width="100%" height="100%">
+        <div class="para2">
+            <p>14 sep 2020
+            10,820 views</p>
+            </div>
+    </div>
+  
+    </div>
+    <div id="row1">
+        <div>
+        <img id="pics" src="./three-one.png" width="100%" height="100%">
+        <div class="para2">
+            <p>12 sep 2020
+            42,700 views</p>
+        </div>
+    </div>
+    <div>
+        <img id="pics" src="./three-two.png" width="100%" height="100%">
+        <div class="para2">
+            <p>09 sep 2020
+            11,402 views</p>
+            </div>
+    </div>
+    <div>
+        <img id="pics" src="./three-three.png" width="100%" height="100%">
+        <div class="para2">
+            <p>8 sep 2020
+            32,906 views</p>
+            </div>
+        </div>
+    <div>
+        <img id="pics" src="./three-four.png" width="100%" height="100%">
+        <div class="para2">
+            <p>6 sep 2020
+            50,700 views</p>
+            </div>
+    </div>
+    </div>
+    <div id="row1">
+        <div>
+        <img id="pics" src="./four-one.png" width="100%" height="100%">
+        <div class="para2">
+            <p>28 Aug 2020
+            1,07,510 views</p>
+        </div>
+    </div>
+    <div>
+        <img id="pics" src="./four-two.png" width="100%" height="100%">
+        <div class="para2">
+            <p>24 Aug 2020
+            1,18,006 views</p>
+            </div>
+    </div>
+    <div>
+        <img id="pics" src="./four-three.png" width="100%" height="100%">
+        <div class="para2">
+            <p>20 Aug 2020
+            121,300 views</p>
+            </div>
+        </div>
+    <div>
+        <img id="pics" src="./four-four.png" width="100%" height="100%">
+        <div class="para2">
+            <p>14 Aug  2020
+            21,204 views</p>
+            </div>
+    </div>
+  
+    </div>
+    </div>
+     
+        <div class="footer">
+  
+          <div class="Process"><h3> Process</h3></div>
+  
+          <div class="numbers">
+          <div class="items"><button>1</button></div>
+          <div class="items"><button>2</button></div>
+          <div class="items"><button>3</button></div>
+          <div class="items"><button>4</button></div>
+          <div class="items"><button>5</button></div>
+          </div>
+  
+          <div class="nextpage"><h3> Next page</h3></div>
+  
+          </div>
+        <div class="parent1">
+        <div id="footer">
+            
+          <div class="footer1">
+       
+       <h3 id="hh">ABOUT CATALOG-Z</h3><br>
+       <p>Catalog-z is free bootstrap 5 alpha 2 html<br> template for video and photo website you can<br>freely use this template layout for a frnoy-end<br></p><br>
+       <p>copyright 2020 catalog-z company all right reserved</p>
+            </div>
+   
+         <div class="footer1">
+       <h2 id="hhh">Our Links</h2>
+      <p>Adverstise</p><br>
+      <p>Support</p><br>
+      <p>Our company</p><br>
+      <p>Contact</p><br>
+          </div>
+         <div class="footer1">
+           <button i="" class="fa-brands fa-facebook-f" ></button>
+           <button i="" class="fa-brands fa-twitter"></button>
+           <button i="" class="fa-brands fa-instagram"></button>
+           <button i="" class="fa-brands fa-linkedin"></button><p>terms of use</p><br>
+            <p>Privacy policy</p>
+  
+         </div>
+    </div>
+        </div>
+  
+  
+  
+  </div>
+  </body></html>
